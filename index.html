@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Web Development Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Jquery JS -->
+    <script src="js/jquery-2.2.4.js" type="text/javascript"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/scripts.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Which character are you?</h1>
+      </header>
+      <h2>Find out the character you are most similar to from Game of Thrones</h2>
+      <p>
+        Fill out the fields below and we'll tell you your character equivalent.
+      </p>
+      <form id="got-survey">
+        <div class="radio">
+          <p>
+            <strong>How do you handle conflicts</strong>
+          </p>
+          <label>
+            <input type="radio" name="conflict" value="quietly" checked>
+            quietly
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="conflict" value="diplomatically">
+            diplomatically
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="conflict" value="trickery">
+            trickery
+          </label>
+        </div>
+        <div class="radio">
+          <p>
+            <strong>What is your favorite animal</strong>
+          </p>
+          <label>
+            <input type="radio" name="animal" value="wolf" checked>
+            wolf
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="lion">
+            lion
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="bird">
+            bird
+          </label>
+        </div>
+        <div class="radio">
+          <p>
+            <strong>What is most important</strong>
+          </p>
+          <label>
+            <input type="radio" name="important" value="happiness" checked>
+            happiness
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="important" value="power">
+            power
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="important" value="knowledge">
+            knowledge
+          </label>
+        </div>
+        <div class="radio">
+          <p>
+            <strong>Where are you from?</strong>
+          </p>
+          <label>
+            <input type="radio" name="origin" value="happiness" checked>
+            north
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="origin" value="power">
+            south
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="origin" value="knowledge">
+            west
+          </label>
+        </div>
+        <div class="radio">
+          <p>
+            <strong>What do you do for fun</strong>
+          </p>
+          <label>
+            <input type="radio" name="fun" value="happiness" checked>
+            hiking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fun" value="power">
+            drinking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fun" value="knowledge">
+            more work
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div class="output">
+        <div id ="dolly-parton">
+          <p>
+            <img src="https://lh6.googleusercontent.com/-J6n7j1EMqBA/AAAAAAAAAAI/AAAAAAAAFuY/NhguVdOsFIw/s0-c-k-no-ns/photo.jpg" alt="Dolly Parton" class="img-responsive pull-left headshot"/>You're a perfect match for Dolly Parton
+          </p>
+        </div>
+        <div id ="justin-bieber">
+          <p>
+            <img src="https://lh6.googleusercontent.com/-k62OQITanCQ/AAAAAAAAAAI/AAAAAAAAGC8/YYrq20OKE6A/s0-c-k-no-ns/photo.jpg" alt="Justin Bieber" class="img-responsive pull-left headshot"/>You're a perfect match for Justin Bieber
+          </p>
+        </div>
+        <div id ="charleton-heston">
+          <p>
+            <img src="http://athenacinema.com/wp-content/uploads/2014/03/SoylentGreen_156Pyxurz.jpg" alt="CHarleton Heston" class="img-responsive pull-left headshot"/>You're a perfect match for Charleton Heston
+          </p>
+        </div>
+        <div id ="no-celebrities">
+          <p>
+            You're not good enough for any of our famous people.  Try better music.
+          </p>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
+      </footer>
+    </div> <!-- end container -->
+  </body>
+</html>
